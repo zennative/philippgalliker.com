@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'DevOps & Cloud Native Blog',
+  title: 'Cloud Native Engineering | Philipp Galliker',
   author: 'Philipp Galliker',
   headerTitle: 'Philipp Galliker',
-  description: 'DevOps & Cloud Native Blog',
+  description: 'Cloud Native Engineering focused on Kubernetes, observability, security, and modern DevOps — practical notes, experiments, and real-world lessons from building and operating cloud-native systems.',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://philippgalliker.com',
