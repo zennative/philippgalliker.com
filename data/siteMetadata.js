@@ -17,10 +17,10 @@ const siteMetadata = {
   // twitter: 'https://twitter.com/Twitter',
   //facebook: 'https://facebook.com',
   //youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/philipp-galliker-37283b335/',
+  //linkedin: 'https://www.linkedin.com/in/philipp-galliker-37283b335/',
   //threads: 'https://www.threads.net',
   //instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com/@philippgalliker',
+  //medium: 'https://medium.com/@philippgalliker',
   //bluesky: 'https://bsky.app/',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
