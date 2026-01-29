@@ -3,6 +3,7 @@ const siteMetadata = {
   title: 'Cloud Native Engineering | Philipp Galliker',
   author: 'Philipp Galliker',
   headerTitle: 'Philipp Galliker',
+  footerTitle: 'Cloud Native Engineering',
   description: 'Cloud Native Engineering focused on Kubernetes, observability, security, and modern DevOps — practical notes, experiments, and real-world lessons from building and operating cloud-native systems.',
   language: 'en-us',
   theme: 'dark', // system, dark or light
