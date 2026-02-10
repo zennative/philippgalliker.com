@@ -5,16 +5,21 @@ lastmod: '2025-05-04'
 tags: ['cloud-native', 'security', 'architecture']
 draft: false
 summary: 'Discover the key security principles every cloud architect, DevOps engineer, and developer must know for building secure cloud-native applications.'
-images: ['/static/images/cloud-native-security-principles-for-a-secure-architecture-philipp-galliker.jpg']
+images:
+  ['/static/images/cloud-native-security-principles-for-a-secure-architecture-philipp-galliker.jpg']
 layout: 'PostBanner'
 ---
 
 # Introduction
 
 Modern software architectures are increasingly based on the cloud-native paradigm. Cloud architects, DevOps engineers, and software developers are responsible for numerous security requirements in the design, development, and operation of cloud applications. The most important principles are summarized here.
+
 <TOCInline toc={props.toc} exclude="Introduction" />
 
+---
+
 # The challenge
+
 Modern software applications leverage the advantages of cloud computing. They scale automatically, are resilient, packaged in containers, and implemented as distributed systems (e.g., microservices). Thanks to cloud computing, cloud-native architecture has established itself as a modern software model. The Cloud Native Computing Foundation (CNCF) provides a common definition, which can be found at:
 
 [https://github.com/cncf/toc/blob/main/DEFINITION.md](https://github.com/cncf/toc/blob/main/DEFINITION.md)
@@ -25,26 +30,38 @@ Building secure software systems should be a concern for all of us. In our highl
 
 In traditional data centers, a clear perimeter, an outer boundary, used to be drawn. Everything within the company network was considered "secure". Today, this boundary hardly exists in the cloud. Users, data, and services are everywhere: in the cloud, at home, and on the go.
 
+---
+
 # Security principles
+
 The following six principles are fundamental to the implementation of secure cloud-native systems.
 
 ## Zero Trust
+
 Every request must be explicitly authorized. Every access attempt, every operation, every transaction is checked and never automatically trusted. This applies both inside and outside the network.
 
 ## Least Privilege
+
 Rights are reduced to the minimum. Each user, service, or function receives only those permissions that are absolutely necessary for their respective task.
 
 ## Defense in Depth
+
 Multiple complementary security layers are combined to minimize the attack surface. Protection mechanisms are implemented at various levels – for example, in the network, for identities, applications, and data.
 
 ## Shift Left
+
 Security should be considered early on in the development process of cloud-native systems. Security measures and tests are moved forward on the timeline (“shift left”) in order to identify and remedy potential vulnerabilities as early as possible. This approach promotes a DevSecOps culture and makes security a natural part of everyday development work.
 
 ## Immutable Infrastructure
+
 Virtual servers, containers, or images are not changed after deployment (immutable). Changes are therefore not made directly to the running system, but replaced by new instances. This means that no one can access a machine and “quickly change something.” This minimizes the risk of untested or harmful changes. Every change can also be mapped in the form of code or pipelines, which is ideal for audits, versioning, and compliance.
 
 ## Security as Code
+
 Security measures are integrated directly into the software development process through Security as Code (SaC). Security checks are embedded in CI/CD pipelines, for example, and containers are automatically checked for vulnerabilities. Security guidelines and configurations, such as Policies as Code, can be automated and versioned, making them verifiable.
 
+---
+
 # Conclusion
+
 Designing secure cloud-native applications is challenging, but feasible. The principles presented here provide a solid foundation for greater security throughout the entire lifecycle. 100% security is never achievable – the key is to strike a balance between protection, benefits, effort, and user-friendliness. Anyone who thinks cloud-native must plan for security from the outset – this is the only way to build trust in a secure digital future.
