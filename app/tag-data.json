@@ -1,5 +1,11 @@
 {
-  "cloud-native": 1,
+  "cloud-native": 2,
   "security": 1,
-  "architecture": 1
+  "architecture": 1,
+  "kubernetes": 1,
+  "observability": 1,
+  "opentelemetry": 1,
+  "kind": 1,
+  "podman": 1,
+  "macos": 1
 }
